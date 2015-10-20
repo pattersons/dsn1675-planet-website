@@ -3,7 +3,7 @@ html {
   font-family: sans-serif;
 }
 
-*, *::before, *after:: {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -11,15 +11,26 @@ body {
   margin: 0;
 }
 
-.gutter {
-
-}
-
 ol {
   display: inline-block;
+  padding: 0;
+}
+
+.gutter {
+  padding: 1rem;
 }
 
 li {
   text-decoration: none;
   list-style: none;
+  display: inline-block;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+header {
+  background-color: grey;
 }
