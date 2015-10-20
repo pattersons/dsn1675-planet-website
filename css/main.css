@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *after:: {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.gutter {
+
+}
+
+ol {
+  display: inline-block;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
